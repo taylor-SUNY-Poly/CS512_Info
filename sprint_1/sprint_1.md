@@ -23,7 +23,7 @@
 | Meeting               | Date       | Time  | Notes |
 |-----------------------|------------|-------|-------|
 | Sprint Planning       | 2025-09-24 | 10:00 | Scope Sprint 1, define goal, estimate stories |
-| Daily Scrum #1        | 2025-09-25 | 10:00 | Standup (q1/q2/q3) |
+| Daily Scrum #1        | 2025-09-25 | 10:00 | Standup |
 | Daily Scrum #2        | 2025-09-27 | 10:00 | Standup |
 | Daily Scrum #3        | 2025-09-29 | 10:00 | Standup |
 | Daily Scrum #4        | 2025-10-01 | 10:00 | Standup (mid‑sprint snapshot) |
