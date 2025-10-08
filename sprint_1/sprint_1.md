@@ -49,7 +49,7 @@
 | P7  | **As a user,** I can filter tasks by status and priority. **AC:** multi‑filter; persists in URL query. | 3 | Nice‑to‑have |
 | P8  | **As a user,** dark mode toggles and persists. **AC:** system pref by default; toggle in header. | 3 | Delight |
 
-**Total backlog points (start):** 42
+**Total backlog hours (start):** 42
 
 ### 3.2 Sprint Goal
 > **Deliver a usable MVP** where users can create/complete tasks and see their toad gain XP, with a basic dashboard and CI in place.
