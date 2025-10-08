@@ -1,7 +1,7 @@
 # CS 512 — Software Engineering
 ## Repository Guide & Sprint 1 Deliverables
 
-Welcome! This repository exists to **show students what “good” looks like**—clear, complete, and properly formatted deliverables for CS 512. Use it as a reference while preparing your own materials.
+This repository exists to **show students of CS 512 what “good” deliverables look like**.  Emphasis should be placed on clear, complete, and properly formatted deliverables. Use it as a reference while preparing your own materials.
 
 ---
 
@@ -15,7 +15,7 @@ Welcome! This repository exists to **show students what “good” looks like**�
 
 ---
 
-## Expected Directory Structure (for *your* team repo)
+## Expected Directory Structure
 
 Your team repository should contain a folder per sprint. For Sprint 1:
 
@@ -27,7 +27,7 @@ your-team-repo/
    └─ assets/               ← (optional) screenshots/images referenced by sprint_1.md
 ```
 
-- **Prefer a single `sprint_1.md`** file that compiles all requested artifacts.
+- **A single `sprint_1.md`** file that compiles all requested artifacts.
 - If you include images (e.g., screenshots of boards/charts), store them in `sprint_1/assets/` and embed them in `sprint_1.md`.
 
 ---
@@ -39,11 +39,9 @@ your-team-repo/
   - **Format:** Live **product demo** (no slides).  
   - **Q&A:** Classwide Q&A follows the demo. Instructor questions will focus on your **Sprint Retrospective**.
 
-**Action:** As soon as your GitHub repo is set up, **email the link** to the instructor.
-
 ---
 
-## Sprint 1 Deliverables (place in `sprint_1/sprint_1.md`)
+## Sprint Deliverables (place in `sprint_{this_sprint_num}/sprint_{this_sprint_num}.md`)
 
 > Organize the page with clear headings. Include dated snapshots where specified.
 
@@ -75,7 +73,7 @@ Provide snapshots or exports (screenshots are fine) of:
 - **Sprint Backlog** (end of Sprint 1)
 - **Burndown Chart** (covering Sprint 1)
 
-> If your tool cannot export a burndown, include a screenshot.
+> If your tool cannot export a burndown, include a screenshot.  You can also plot line graphs in markdown using mermaid.  There is an example of this is in the smaple deliverables.
 
 ### 6) One-Page Sprint Retrospective
 A concise reflection (≈1 page) covering:
@@ -141,17 +139,6 @@ You can copy this outline:
 - ...
 ```
 
----
-
-## Quick Checklist
-
-- [ ] `sprint_1/sprint_1.md` exists and includes **all** sections above.  
-- [ ] Screenshots/exports are **legible** and dated (store in `sprint_1/assets/`).  
-- [ ] Meeting schedule lists **Planning, ~5–6 Standups, Retrospective**.  
-- [ ] **Start/Mid/End** snapshots included as specified.  
-- [ ] **Burndown chart** included for the full sprint.  
-- [ ] **One-page retrospective** is concise, specific, and actionable.  
-- [ ] **Repo link emailed** to the instructor.
 
 ---
 
@@ -159,7 +146,8 @@ You can copy this outline:
 
 - **Demo:** Be ready to **demo the product** on **October 8** (no slides).  
 - **Q&A:** Expect questions from classmates and the instructor (focused on your retrospective).  
-- **Help:** If you or your group have questions, **email the instructor** anytime.
+- **Help:** If you or your group have questions, **email me** anytime.
+   - taylordm@sunypoly.edu
 
 ---
 
@@ -168,7 +156,6 @@ You can copy this outline:
 - `README.md` (this file): Guidance and expectations.  
 - `sprint_1/`  
   - `sprint_1.md` — An **example** of how a complete Sprint 1 submission should look.  
-  - `assets/` — Example images/screenshots referenced by the Markdown.
 
 Use these as models for structure, tone, and completeness in your own repos.
 
