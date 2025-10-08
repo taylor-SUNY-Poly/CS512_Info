@@ -36,9 +36,9 @@
 ## 3. Start‑of‑Sprint Snapshots (post‑Planning)
 
 ### 3.1 Product Backlog (start)
-> Ordered by priority. Story points use Fibonacci scale.
 
-| ID  | User Story & Acceptance Criteria (abridged) | Points | Notes |
+
+| ID  | User Story & Acceptance Criteria (abridged) | Hours | Notes |
 |-----|---------------------------------------------|--------|-------|
 | P1  | **As a user,** I can create tasks with title, due date, and priority **so that** I can track work. **AC:** title required; due date optional; tasks persist. | 8 | Core CRUD |
 | P2  | **As a user,** completing a task gives my toad XP and triggers an animation. **AC:** XP increments; animation < 2s; no page reload. | 5 | Gamification |
@@ -55,9 +55,9 @@
 > **Deliver a usable MVP** where users can create/complete tasks and see their toad gain XP, with a basic dashboard and CI in place.
 
 ### 3.3 Sprint Backlog (start)
-> Committed scope for 4‑person team (~30–32 points target load).
+> Committed scope for 4‑person team (~30–32 hours target load).
 
-| ID  | Selected Story | Points | Owner | Status (start) |
+| ID  | Selected Story | PHours | Owner | Status (start) |
 |-----|----------------|--------|-------|----------------|
 | P1  | Task CRUD (create/list/complete) | 8 | Diego | Not started |
 | P2  | XP on complete + animation | 5 | Mina | Not started |
@@ -66,14 +66,14 @@
 | P6  | CI: GH Actions + unit tests | 5 | Priya | Not started |
 | P7  | Filter by status/priority | 3 | Diego | Not started |
 
-**Committed points:** 31
+**Committed hours:** 31
 
 ---
 
 ## 4. Mid‑Sprint Snapshot (10/1)
 
 ### 4.1 Sprint Backlog (midpoint)
-| ID  | Selected Story | Points | Owner | Status (mid) | Notes |
+| ID  | Selected Story | Hours | Owner | Status (mid) | Notes |
 |-----|----------------|--------|-------|--------------|-------|
 | P1  | Task CRUD | 8 | Diego | **In Progress** (backend done; UI wiring 50%) | Found bug with due‑date parsing |
 | P2  | XP + animation | 5 | Mina | **In Review** | Lottie animation added; perf OK |
@@ -92,7 +92,7 @@
 ## 5. End‑of‑Sprint Snapshots
 
 ### 5.1 Product Backlog (end)
-| ID  | Story | Points | Status (end) | Notes |
+| ID  | Story | Hours | Status (end) | Notes |
 |-----|-------|--------|--------------|-------|
 | P1  | Task CRUD | 8 | **Done** | CRUD + complete toggle + persistence |
 | P2  | XP + animation | 5 | **Done** | 60fps on mobile; accessible fallback |
@@ -104,10 +104,10 @@
 | P8  | Dark mode | 3 | **Not Started** | Backlog |
 
 **Remaining backlog after Sprint 1:** P4, P7 (½), P8  
-**Delivered points:** 28.5 (counting P7 at 50%)
+**Delivered hours:** 28.5 (counting P7 at 50%)
 
 ### 5.2 Sprint Backlog (end)
-| ID  | Story | Points | Owner | Status (end) |
+| ID  | Story | Hours | Owner | Status (end) |
 |-----|-------|--------|-------|--------------|
 | P1  | Task CRUD | 8 | Diego | **Done** |
 | P2  | XP + animation | 5 | Mina | **Done** |
@@ -117,13 +117,13 @@
 | P7  | Filters | 3 | Diego | **In Progress (50%)** |
 
 ### 5.3 Burndown Chart (full sprint)
-> Ideal vs. actual remaining points. Scope stayed constant.
+> Ideal vs. actual remaining hours. Scope stayed constant.
 
 ```mermaid
 xychart-beta
 title "Sprint 1 Burndown — ToadDo"
 x-axis "Date" ["09-24","09-26","09-28","09-30","10-01","10-03","10-05","10-07"]
-y-axis "Remaining Points" 0 --> 31
+y-axis "Remaining Hours" 0 --> 31
 line "Ideal" [31,27,23,19,15,11,7,3]
 line "Actual" [31,29,26,22,20,14,8,2.5]
 ```
@@ -153,9 +153,4 @@ line "Actual" [31,29,26,22,20,14,8,2.5]
 - URL‑driven UI states are deceptively complex; plan for testing and docs.
 
 ---
-
-## Appendix (Artifacts & Links)
-- **Repo board:** Screenshots stored in `assets/` (not included here in example).  
-- **Test summary:** 24 unit tests; all green on main.  
-- **Coverage (lines):** 71% (goal ≥ 60% for MVP).
 
