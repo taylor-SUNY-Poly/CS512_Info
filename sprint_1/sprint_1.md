@@ -120,12 +120,12 @@
 > Ideal vs. actual remaining points. Scope stayed constant.
 
 ```mermaid
-line
-  title Sprint 1 Burndown — ToadDo
-  x-axis Date 09-24, 09-26, 09-28, 09-30, 10-01, 10-03, 10-05, 10-07
-  y-axis Remaining Points 0 --> 31
-  series Ideal: 31, 27, 23, 19, 15, 11, 7, 3
-  series Actual: 31, 29, 26, 22, 20, 14, 8, 2.5
+xychart-beta
+title "Sprint 1 Burndown — ToadDo"
+x-axis "Date" ["09-24","09-26","09-28","09-30","10-01","10-03","10-05","10-07"]
+y-axis "Remaining Points" 0 --> 31
+line "Ideal" [31,27,23,19,15,11,7,3]
+line "Actual" [31,29,26,22,20,14,8,2.5]
 ```
 
 ---
