@@ -57,14 +57,14 @@
 ### 3.3 Sprint Backlog (start)
 > Committed scope for 4‑person team (~30–32 hours target load).
 
-| ID  | Selected Story | PHours | Owner | Status (start) |
+| ID  | Selected Story | Hours | Owner | Status 9/24 |
 |-----|----------------|--------|-------|----------------|
 | P1  | Task CRUD (create/list/complete) | 8 | Diego | Not started |
 | P2  | XP on complete + animation | 5 | Mina | Not started |
 | P3  | Dashboard metrics panel | 5 | Alex | Not started |
-| P5  | Level thresholds + badge | 5 | Mina | Not started |
+| P5  | Level thresholds + badge | 5 | - | Not started |
 | P6  | CI: GH Actions + unit tests | 5 | Priya | Not started |
-| P7  | Filter by status/priority | 3 | Diego | Not started |
+| P7  | Filter by status/priority | 3 | - | Not started |
 
 **Committed hours:** 31
 
@@ -73,19 +73,15 @@
 ## 4. Mid‑Sprint Snapshot (10/1)
 
 ### 4.1 Sprint Backlog (midpoint)
-| ID  | Selected Story | Hours | Owner | Status (mid) | Notes |
-|-----|----------------|--------|-------|--------------|-------|
-| P1  | Task CRUD | 8 | Diego | **In Progress** (backend done; UI wiring 50%) | Found bug with due‑date parsing |
-| P2  | XP + animation | 5 | Mina | **In Review** | Lottie animation added; perf OK |
-| P3  | Dashboard | 5 | Alex | **In Progress** (metrics accurate; needs styling) | Added unit tests for counts |
-| P5  | Level thresholds | 5 | Mina | **Blocked** (depends on P2 merge) | Waiting on XP events |
-| P6  | CI | 5 | Priya | **Done** | Tests on PR; branch protection enabled |
-| P7  | Filters | 3 | Diego | **Not Started** | Slated after P1 UI |
 
-**Mid‑sprint changes:**
-- CI (P6) finished early, caught 2 test regressions.  
-- XP animation (P2) flagged as large Lottie; compressed asset.  
-- Discovered date‑parsing issue on Safari (fix in P1 subtask).
+| ID  | Selected Story | Hours | Owner | Status 10/1 | Notes |
+|-----|----------------|--------|-------|--------------|-------|
+| P1  | Task CRUD | 4 | Diego | **In Progress** (backend done; UI wiring 50%) | Found bug with due‑date parsing |
+| P2  | XP + animation | 1 | Mina | **In Review** | Lottie animation added; perf OK |
+| P3  | Dashboard | 2 | Alex | **In Progress** (metrics accurate; needs styling) | Added unit tests for counts |
+| P5  | Level thresholds | 4 | Mina | **Blocked** (depends on P2 merge) | Waiting on XP events |
+| P6  | CI | 0 | Priya | **Done** | Tests on PR; branch protection enabled |
+| P7  | Filters | 3 | Diego | **Not Started** | Slated after P1 UI |
 
 ---
 
@@ -94,12 +90,12 @@
 ### 5.1 Product Backlog (end)
 | ID  | Story | Hours | Status (end) | Notes |
 |-----|-------|--------|--------------|-------|
-| P1  | Task CRUD | 8 | **Done** | CRUD + complete toggle + persistence |
-| P2  | XP + animation | 5 | **Done** | 60fps on mobile; accessible fallback |
-| P3  | Dashboard panel | 5 | **Done** | Mobile‑responsive; numbers verified |
+| P1  | Task CRUD | 0 | **Done** | CRUD + complete toggle + persistence |
+| P2  | XP + animation | 0 | **Done** | 60fps on mobile; accessible fallback |
+| P3  | Dashboard panel | 0 | **Done** | Mobile‑responsive; numbers verified |
 | P4  | Overdue croak reminders | 8 | **Not Started** | Deferred to Sprint 2 |
-| P5  | Level thresholds + badge | 5 | **Done** | Lv1→2 (50), Lv2→3 (150) |
-| P6  | CI on PR | 5 | **Done** | Required checks on main |
+| P5  | Level thresholds + badge | 0 | **Done** | Lv1→2 (50), Lv2→3 (150) |
+| P6  | CI on PR | 0 | **Done** | Required checks on main |
 | P7  | Filters | 3 | **In Progress (50%)** | Status filter done; priority pending |
 | P8  | Dark mode | 3 | **Not Started** | Backlog |
 
@@ -107,14 +103,15 @@
 **Delivered hours:** 28.5 (counting P7 at 50%)
 
 ### 5.2 Sprint Backlog (end)
+
 | ID  | Story | Hours | Owner | Status (end) |
 |-----|-------|--------|-------|--------------|
-| P1  | Task CRUD | 8 | Diego | **Done** |
-| P2  | XP + animation | 5 | Mina | **Done** |
-| P3  | Dashboard | 5 | Alex | **Done** |
-| P5  | Level thresholds | 5 | Mina | **Done** |
-| P6  | CI | 5 | Priya | **Done** |
-| P7  | Filters | 3 | Diego | **In Progress (50%)** |
+| P1  | Task CRUD | 0 | Diego | **Done** |
+| P2  | XP + animation | 0 | Mina | **Done** |
+| P3  | Dashboard | 0 | Alex | **Done** |
+| P5  | Level thresholds | 0 | Mina | **Done** |
+| P6  | CI | 0 | Priya | **Done** |
+| P7  | Filters | 0 | Diego | **In Progress (50%)** , delayed to sprint 2|
 
 ### 5.3 Burndown Chart (full sprint)
 > Ideal vs. actual remaining hours. Scope stayed constant.
